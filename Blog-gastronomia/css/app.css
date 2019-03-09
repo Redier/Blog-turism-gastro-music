@@ -1,0 +1,39 @@
+.img-fondo{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.color-contenedor{
+  background-color: #85C1E9;
+  opacity: 0.9;
+  padding: 0.5rem;
+}
+.titulo{
+  color: white;
+}
+.slogan{
+  margin-left: 2rem;
+  text-align: right;
+}
+.rotar{
+  transform: rotate(90deg);
+}
+.alinear-col{
+  margin-top: 2rem;
+}
+.thumbnail{
+  width: 30%;
+}
+.img-tamano{
+  width: 100%
+}
+.callout{
+  background-color: #FFE3F7;
+}
+.tamano-user{
+  width: 4rem;
+}
