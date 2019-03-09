@@ -1,0 +1,68 @@
+.fondo-body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+  background-position: center;
+ background-attachment: fixed;
+  width: 100%;
+  }
+.barra-superior{
+  min-height: 5rem;
+
+}
+.fila-barra{
+  height: 1.5rem;
+
+}
+.tamano-logo{
+  width: 12rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+.contenedor-botones{
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.btn-menu{
+  FONT-SIZE: 8pt;
+  border-radius: 5px;
+  height: 2rem;
+
+  background-color: #bf360c;
+}
+.color-icono{
+  color: grey;
+}
+.redes-sociales{
+  padding-bottom: 2.5rem;
+  margin-left: 1rem;
+}
+.galeria-img-1{
+  width: 100%;
+}
+.galeria-img-2{
+  width: 100%;
+  height: 40rem;
+}
+.galeria-img-3{
+  width: 100%;
+}
+.imagen-blog{
+  float: left;
+  padding-right:0.5rem;
+  width: 20rem;
+}
+.imagen-autor{
+  width: 12rem;
+}
+.contenedor-comentarios{
+  padding: 1rem;
+}
+@media (min-width:421px) and (max-width:800px){
+  .btn-menu{
+    max-width: 1rem;
+  }
+  .imagen-blog{
+    float: none;
+}
