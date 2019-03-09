@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src='js/bootstrap.min.js'></script>
+    <title>Blog de Musica</title>
+  </head>
+  <body class="img-body">
+    <div class="container">
+      <!-- Fila para el barra principal-->
+      <div class="row contenedor">
+        <div class="col-lg-3">
+          <img class='logo-img' src='img/logo-musica.jpg'/>
+        </div>
+        <div class="col-lg-4 offset-lg-5 alineacion-redes">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><span class="color-celeste"><i class="fab fa-twitter fa-2x"></i></span></a>
+          <a href="#"><span class="color-morado"><i class="fab fa-instagram fa-2x"></i></span></a>
+          <a href="#"><span class="color-rojo"><i class="fab fa-pinterest-square fa-2x"></i></span></a>
+          <a href="#"><span class="color-rojo"><i class="fab fa-youtube fa-2x"></i></span></a>
+
+        </div>
+      </div>
+      <!--barra de navegacion -->
+      <div class="row contenedor">
+        <div class="col-lg-12 list-group list-group-horizontal-lg">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Inicio</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Artistas</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Grupos</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Top 10</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Letras</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Acordes</a>
+
+        </div>
+
+      </div>
+      <!-- columna principal-->
+      <div class="row contenedor-col-principal">
+        <div class=" col-lg-8"><!--Contenido -->
+          <div class="row"> <!--Publicacion 1-->
+            <div class="col-lg-7">
+              <h5>Tech House</h5>
+              <p>El Tech house es un estilo de música electrónica de baile que se originó en la segunda mitad de los años 1990 y que se caracteriza por fusionar o mezclar elementos del techno y del house.
+              Su origen lo encontramos en la misma evolución de la música electrónica pues a medida que esta ha ido evolucionando, se han ido diluyendo las fronteras entre los distintos géneros al entremezclarse entre ellos, así fue gestándose un tipo de house cada vez más influenciado por los sonidos sintéticos del techno.</p>
+
+            </div>
+            <div class="col-lg-5">
+              <img src="img/tech-house.jpg" alt="tech house" class="imagenes">
+            </div>
+          </div>
+          <div class="row"> <!--Formulario 1-->
+            <div class="col lg-12">
+              <form >
+                <div class="form-group row">
+                  <div class="col-sm-1">
+                    <img src="img/user.svg" class="icono-user">
+                  </div>
+                  <div class="col-sm-11">
+                    <textarea class="form-control" id="Textarea1" rows="2" cols="190"placeholder="Comentario"></textarea>
+                  </div>
+                </div>
+              </form>
+            </div><!--fin formulario-->
+          </div>
+          <div class="row"> <!--Publicacion 2-->
+            <div class="col-lg-5">
+              <img src="img/ibiza.jpg" alt="ibiza" class="imagenes">
+            </div>
+            <div class="col-lg-7">
+              <h5>Ibiza</h5>
+              <p>Ibiza (en catalán balear y oficialmente Eivissa) es una isla situada en el mar Mediterráneo y que forma junto a las de Mallorca, Menorca y Formentera y varios islotes de menor tamaño el archipiélago y comunidad autónoma de las Islas Baleares, en España. Cuenta con una extensión de 572 km² y una población de 143 856 habitantes (INE 2017), por lo que es la segunda isla de Baleares en términos de población tras Mallorca.4​ Ibiza es además, la tercera isla balear en extensión, tras Mallorca y Menorca.</p>
+              <p>La isla goza de renombre internacional por la belleza de sus calas y playas y la calidad de sus aguas, así como por fiestas y discotecas, que atraen a numerosos turistas. La zona del puerto de Ibiza también atrae a muchos turistas por su vida nocturna.</p>
+            </div>
+          </div>
+          <div class="row"> <!--Formulario 2-->
+            <div class="col lg-12">
+              <form >
+                <div class="form-group row">
+                  <div class="col-sm-1">
+                    <img src="img/user.svg" class="icono-user">
+                  </div>
+                  <div class="col-sm-11">
+                    <textarea class="form-control" id="Textarea2" rows="2" cols="190"placeholder="Comentario"></textarea>
+                  </div>
+                </div>
+              </form>
+            </div><!--fin formulario-->
+          </div>
+        </div>
+        <div class="col-lg-4 d-none d-lg-block"><!--Buscador-->
+          <div class="col-lg-12"><!--Formulario buscar-->
+            <form >
+              <div class="form-row">
+                <div class="col-auto">
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-search fa-1x"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="buscar" placeholder="Buscar por">
+                  </div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div class="col-lg-12">
+            <div class="list-group text-left">
+              <a href="#" class="list-group-item list-group-item-action">Cantantes</a>
+              <a href="#" class="list-group-item list-group-item-action">Compositores</a>
+              <a href="#" class="list-group-item list-group-item-action">Genero Musical</a>
+              <a href="#" class="list-group-item list-group-item-action">Paises</a>
+              <a href="#" class="list-group-item list-group-item-action">Epoca</a>
+              <a href="#" class="list-group-item list-group-item-action">Mas escuchados</a>
+              <a href="#" class="list-group-item list-group-item-action">Top Ranking</a>
+              <a href="#" class="list-group-item list-group-item-action">Nombre tema</a>
+              <a href="#" class="list-group-item list-group-item-action">Discografia</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
